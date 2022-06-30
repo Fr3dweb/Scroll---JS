@@ -1,0 +1,34 @@
+*{ 
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+}
+body {
+    text-align: center;
+    margin: 0;
+    color: aliceblue;
+    min-height: 200vh;
+    overflow-x: hidden; /*permet d'éviter que le mousemove crée un scroll latéral. */
+}
+
+.box{
+    border: 6px solid whitesmoke;
+    transition: 0.25s ease;
+    background: black;
+    padding: 10px;
+}
+nav{
+    background: #f35608;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    top: -50px;
+    transition: 0.5s;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+}
+
